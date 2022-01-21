@@ -1,36 +1,17 @@
 {
   "name": "react-course",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alierenkara/react-course.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alierenkara/react-course/issues"
-  },
-  "homepage": "https://github.com/alierenkara/react-course#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-scripts": "0.9.5"
   },
-  "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
-    "@babel/preset-react": "7.0.0",
-    "babel-loader": "8.0.4",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "4.28.3",
-    "webpack-cli": "3.1.2",
-    "webpack-dev-server": "3.1.14"
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
