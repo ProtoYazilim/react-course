@@ -1,0 +1,20 @@
+.panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-panel {
+  width: 400px;
+  height: 200px;
+  border: 1px black solid;
+}
+
+.list-panel {
+  width: 400px;
+  height: 200px;
+  border: 1px black solid;
+}
+
+.list-panel p {
+  margin: 4px;
+}
