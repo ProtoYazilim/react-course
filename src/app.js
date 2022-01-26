@@ -10,8 +10,8 @@ import "./App.css"
 // import PropTypes from "./Lessons/8-PropTypes"
 // import Hocs from "./Lessons/9-Hocs"
 // import ReactRouter from "./Lessons/10-ReactRouter"
-import ReactRedux from "./Lessons/11-ReactRedux"
-
+// import ReactRedux from "./Lessons/11-ReactRedux"
+import Demo from "./Lessons/12-Demo"
 class App extends Component {
   render() {
     return (
@@ -26,7 +26,8 @@ class App extends Component {
         {/* <PropTypes /> */}
         {/* <Hocs /> */}
         {/* <ReactRouter /> */}
-        <ReactRedux />
+        {/* <ReactRedux /> */}
+        <Demo />
       </div>
     )
   }
