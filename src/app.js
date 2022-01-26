@@ -8,8 +8,8 @@ import "./App.css"
 // import Forms from "./Lessons/6-Form"
 // import LiftingStateUp from "./Lessons/7-LiftingStateUp"
 // import PropTypes from "./Lessons/8-PropTypes"
-import Hocs from "./Lessons/9-Hocs"
-
+// import Hocs from "./Lessons/9-Hocs"
+import ReactRouter from "./Lessons/10-ReactRouter"
 class App extends Component {
   render() {
     return (
@@ -22,7 +22,8 @@ class App extends Component {
         {/* <Forms /> */}
         {/* <LiftingStateUp /> */}
         {/* <PropTypes /> */}
-        <Hocs />
+        {/* <Hocs /> */}
+        <ReactRouter />
       </div>
     )
   }
