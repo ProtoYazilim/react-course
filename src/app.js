@@ -7,7 +7,8 @@ import "./App.css"
 // import Events from "./Lessons/5-Events"
 // import Forms from "./Lessons/6-Form"
 // import LiftingStateUp from "./Lessons/7-LiftingStateUp"
-import PropTypes from "./Lessons/8-PropTypes"
+// import PropTypes from "./Lessons/8-PropTypes"
+import Hocs from "./Lessons/9-Hocs"
 
 class App extends Component {
   render() {
@@ -20,7 +21,8 @@ class App extends Component {
         {/* <Events /> */}
         {/* <Forms /> */}
         {/* <LiftingStateUp /> */}
-        <PropTypes />
+        {/* <PropTypes /> */}
+        <Hocs />
       </div>
     )
   }
